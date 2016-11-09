@@ -1,5 +1,5 @@
 function isFromCapeTown (CapeTown) {
-var registrationPlate = CapeTown.endsWith("CY");
+var registrationPlate = CapeTown.endsWith('CY');
 return registrationPlate;
 }
-console.log(registrationPlate ("12345CY"));
+console.log(isFromCapeTown('12345CY'));

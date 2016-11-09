@@ -1,7 +1,6 @@
 
-function isTuesday (day) {
-var whatDay = isToday ("Tuesday");
-
-return isTuesday("Tuesday");
+function isTuesday(day) {
+var whatDay = day.endsWith ("y");
+return whatDay;
 }
-isTuesday();
+console.log(isTuesday ("Tuesday"));
