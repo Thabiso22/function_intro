@@ -1,6 +1,7 @@
-var greet = function (name){
-          var  result = "hi, "+name;
-          return (result);
-};
+var greet = myFunction("Hello", "John");        
 
-console.log(greet("Thabiso"));
+function myFunction(a, b) {
+    return a + b ;
+}                
+
+console.log (greet);

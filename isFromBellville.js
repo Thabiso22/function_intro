@@ -1,5 +1,6 @@
+
 function isFromBellville(Bellville) {
-   registrationPlate = Bellville.startsWith("CY");
-   return registrationPlate;
+  registrationPlate = Bellville.startsWith('CY');
+  return registrationPlate;
 }
-console.log(isFromBellville("CY123456789"));
+console.log(isFromBellville('CY123456789'));
