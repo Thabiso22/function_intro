@@ -1,6 +1,6 @@
 const assert = require("assert");
 function isTuesday(day) {
-var whatDay = day.endsWith ("y");
+var whatDay = day.startsWith ("T");
 return whatDay;
 }
 console.log(isTuesday ("Tuesday"));
