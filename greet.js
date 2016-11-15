@@ -1,8 +1,9 @@
 
 
-
-function myFunction(a , b) {
-    return a + b ;
+const assert = require ("assert");
+function greet(name) {
+    return ("hello" + name);
 }
 
-console.log (myFunction("Hello", "John"));
+console.log (greet("John"));
+assert.equal(greet("John"),"helloJohn");
